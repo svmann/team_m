@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "evolves_into": [
+      {
+        "name": "Ivysaur",
+        "method": "level-up"
+      },
+      {
+        "name": "Venusaur",
+        "method": "level-up"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "evolves_into": [
+      {
+        "name": "Venusaur",
+        "method": "level-up"
+      }
+    ]
+  },
+    {
+    "id": 3,
+    "name": "Venusaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "evolves_into": []
+  }
+]
