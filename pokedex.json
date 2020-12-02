@@ -1,43 +1,1023 @@
-[
-  {
-    "id": 1,
-    "name": "Bulbasaur",
-    "types": [
-      "grass",
-      "poison"
-    ],
-    "evolves_into": [
-      {
-        "name": "Ivysaur",
-        "method": "level-up"
-      },
-      {
-        "name": "Venusaur",
-        "method": "level-up"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Ivysaur",
-    "types": [
-      "grass",
-      "poison"
-    ],
-    "evolves_into": [
-      {
-        "name": "Venusaur",
-        "method": "level-up"
-      }
-    ]
-  },
-    {
-    "id": 3,
-    "name": "Venusaur",
-    "types": [
-      "grass",
-      "poison"
-    ],
-    "evolves_into": []
-  }
-]
+[{
+	"id": 1,
+	"name": "Bulbasaur",
+	"types": ["grass", "poison"],
+	"evolves_into": [{
+		"name": "Ivysaur",
+		"method": "level 16"
+	}, {
+		"name": "Venusaur",
+		"method": "level 32"
+	}]
+}, {
+	"id": 2,
+	"name": "Ivysaur",
+	"types": ["grass", "poison"],
+	"evolves_into": [{
+		"name": "Venusaur",
+		"method": "level 32"
+	}]
+}, {
+	"id": 3,
+	"name": "Venusaur",
+	"types": ["grass", "poison"],
+	"evolves_into": []
+}, {
+	"id": 4,
+	"name": "Charmander",
+	"types": ["fire"],
+	"evolves_into": [{
+		"name": "Charmeleon",
+		"method": "level 16"
+	}, {
+		"name": "Charizard",
+		"method": "level 36"
+	}]
+}, {
+	"id": 5,
+	"name": "Charmeleon",
+	"types": ["fire"],
+	"evolves_into": [{
+		"name": "Charizard",
+		"method": "level 36"
+	}]
+}, {
+	"id": 6,
+	"name": "Charizard",
+	"types": ["fire", "flying"],
+	"evolves_into": []
+}, {
+	"id": 7,
+	"name": "Squirtle",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Wartortle",
+		"method": "level 16"
+	}, {
+		"name": "Blastoise",
+		"method": "level 36"
+	}]
+}, {
+	"id": 8,
+	"name": "Wartortle",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Blastoise",
+		"method": "level 36"
+	}]
+}, {
+	"id": 9,
+	"name": "Blastoise",
+	"types": ["water"],
+	"evolves_into": []
+}, {
+	"id": 10,
+	"name": "Caterpie",
+	"types": ["bug"],
+	"evolves_into": [{
+		"name": "Metapod",
+		"method": "level 7"
+	}, {
+		"name": "Butterfree",
+		"method": "level 10"
+	}]
+}, {
+	"id": 11,
+	"name": "Metapod",
+	"types": ["bug"],
+	"evolves_into": [{
+		"name": "Butterfree",
+		"method": "level 10"
+	}]
+}, {
+	"id": 12,
+	"name": "Butterfree",
+	"types": ["bug", "flying"],
+	"evolves_into": []
+}, {
+	"id": 13,
+	"name": "Weedle",
+	"types": ["bug", "poison"],
+	"evolves_into": [{
+		"name": "Kakuna",
+		"method": "level 7"
+	}, {
+		"name": "Beedrill",
+		"method": "level 10"
+	}]
+}, {
+	"id": 14,
+	"name": "Kakuna",
+	"types": ["bug", "poison"],
+	"evolves_into": [{
+		"name": "Beedrill",
+		"method": "level 10"
+	}]
+}, {
+	"id": 15,
+	"name": "Beedrill",
+	"types": ["bug", "poison"],
+	"evolves_into": []
+}, {
+	"id": 16,
+	"name": "Pidgey",
+	"types": ["normal", "flying"],
+	"evolves_into": [{
+		"name": "Pidgeotto",
+		"method": "level 18"
+	}, {
+		"name": "Pidgeot",
+		"method": "level 36"
+	}]
+}, {
+	"id": 17,
+	"name": "Pidgeotto",
+	"types": ["normal", "flying"],
+	"evolves_into": [{
+		"name": "Pidgeot",
+		"method": "level 36"
+	}]
+}, {
+	"id": 18,
+	"name": "Pidgeot",
+	"types": ["normal", "flying"],
+	"evolves_into": []
+}, {
+	"id": 19,
+	"name": "Rattata",
+	"types": ["normal"],
+	"evolves_into": [{
+		"name": "Raticate",
+		"method": "level 20"
+	}]
+}, {
+	"id": 20,
+	"name": "Raticate",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 21,
+	"name": "Spearow",
+	"types": ["normal", "flying"],
+	"evolves_into": [{
+		"name": "Fearow",
+		"method": "level 20"
+	}]
+}, {
+	"id": 22,
+	"name": "Fearow",
+	"types": ["normal", "flying"],
+	"evolves_into": []
+}, {
+	"id": 23,
+	"name": "Ekans",
+	"types": ["poison"],
+	"evolves_into": [{
+		"name": "Arbok",
+		"method": "level 22"
+	}]
+}, {
+	"id": 24,
+	"name": "Arbok",
+	"types": ["poison"],
+	"evolves_into": []
+}, {
+	"id": 25,
+	"name": "Pikachu",
+	"types": ["electric"],
+	"evolves_into": [{
+		"name": "Raichu",
+		"method": "giving it the item Thunder Stone"
+	}]
+}, {
+	"id": 26,
+	"name": "Raichu",
+	"types": ["electric"],
+	"evolves_into": []
+}, {
+	"id": 27,
+	"name": "Sandshrew",
+	"types": ["ground"],
+	"evolves_into": [{
+		"name": "Sandslash",
+		"method": "level 22"
+	}]
+}, {
+	"id": 28,
+	"name": "Sandslash",
+	"types": ["ground"],
+	"evolves_into": []
+}, {
+	"id": 29,
+	"name": "Nidoran♀",
+	"types": ["poison"],
+	"evolves_into": [{
+		"name": "Nidorina",
+		"method": "level 16"
+	}, {
+		"name": "Nidoqueen",
+		"method": "giving it the item Moon Stone"
+	}]
+}, {
+	"id": 30,
+	"name": "Nidorina",
+	"types": ["poison"],
+	"evolves_into": [{
+		"name": "Nidoqueen",
+		"method": "giving it the item Moon Stone"
+	}]
+}, {
+	"id": 31,
+	"name": "Nidoqueen",
+	"types": ["poison", "ground"],
+	"evolves_into": []
+}, {
+	"id": 32,
+	"name": "Nidoran♂",
+	"types": ["poison"],
+	"evolves_into": [{
+		"name": "Nidorino",
+		"method": "level 16"
+	}, {
+		"name": "Nidoking",
+		"method": "giving it the item Moon Stone"
+	}]
+}, {
+	"id": 33,
+	"name": "Nidorino",
+	"types": ["poison"],
+	"evolves_into": [{
+		"name": "Nidoking",
+		"method": "giving it the item Moon Stone"
+	}]
+}, {
+	"id": 34,
+	"name": "Nidoking",
+	"types": ["poison", "ground"],
+	"evolves_into": []
+}, {
+	"id": 35,
+	"name": "Clefairy",
+	"types": ["normal"],
+	"evolves_into": [{
+		"name": "Clefable",
+		"method": "giving it the item Moon Stone"
+	}]
+}, {
+	"id": 36,
+	"name": "Clefable",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 37,
+	"name": "Vulpix",
+	"types": ["fire"],
+	"evolves_into": [{
+		"name": "Ninetales",
+		"method": "giving it the item Fire Stone"
+	}]
+}, {
+	"id": 38,
+	"name": "Ninetales",
+	"types": ["fire"],
+	"evolves_into": []
+}, {
+	"id": 39,
+	"name": "Jigglypuff",
+	"types": ["normal"],
+	"evolves_into": [{
+		"name": "Wigglytuff",
+		"method": "giving it the item Moon Stone"
+	}]
+}, {
+	"id": 40,
+	"name": "Wigglytuff",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 41,
+	"name": "Zubat",
+	"types": ["poison", "flying"],
+	"evolves_into": [{
+		"name": "Golbat",
+		"method": "level 22"
+	}]
+}, {
+	"id": 42,
+	"name": "Golbat",
+	"types": ["poison", "flying"],
+	"evolves_into": []
+}, {
+	"id": 43,
+	"name": "Oddish",
+	"types": ["grass", "poison"],
+	"evolves_into": [{
+		"name": "Gloom",
+		"method": "level 21"
+	}, {
+		"name": "Vileplume",
+		"method": "giving it the item Leaf Stone"
+	}]
+}, {
+	"id": 44,
+	"name": "Gloom",
+	"types": ["grass", "poison"],
+	"evolves_into": [{
+		"name": "Vileplume",
+		"method": "giving it the item Leaf Stone"
+	}]
+}, {
+	"id": 45,
+	"name": "Vileplume",
+	"types": ["grass", "poison"],
+	"evolves_into": []
+}, {
+	"id": 46,
+	"name": "Paras",
+	"types": ["bug", "grass"],
+	"evolves_into": [{
+		"name": "Parasect",
+		"method": "level 24"
+	}]
+}, {
+	"id": 47,
+	"name": "Parasect",
+	"types": ["bug", "grass"],
+	"evolves_into": []
+}, {
+	"id": 48,
+	"name": "Venonat",
+	"types": ["bug", "poison"],
+	"evolves_into": [{
+		"name": "Venomoth",
+		"method": "level 31"
+	}]
+}, {
+	"id": 49,
+	"name": "Venomoth",
+	"types": ["bug", "poison"],
+	"evolves_into": []
+}, {
+	"id": 50,
+	"name": "Diglett",
+	"types": ["ground"],
+	"evolves_into": [{
+		"name": "Dugtrio",
+		"method": "level 26"
+	}]
+}, {
+	"id": 51,
+	"name": "Dugtrio",
+	"types": ["ground"],
+	"evolves_into": []
+}, {
+	"id": 52,
+	"name": "Meowth",
+	"types": ["normal"],
+	"evolves_into": [{
+		"name": "Persian",
+		"method": "level 28"
+	}]
+}, {
+	"id": 53,
+	"name": "Persian",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 54,
+	"name": "Psyduck",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Golduck",
+		"method": "level 33"
+	}]
+}, {
+	"id": 55,
+	"name": "Golduck",
+	"types": ["water"],
+	"evolves_into": []
+}, {
+	"id": 56,
+	"name": "Mankey",
+	"types": ["fighting"],
+	"evolves_into": [{
+		"name": "Primeape",
+		"method": "level 28"
+	}]
+}, {
+	"id": 57,
+	"name": "Primeape",
+	"types": ["fighting"],
+	"evolves_into": []
+}, {
+	"id": 58,
+	"name": "Growlithe",
+	"types": ["fire"],
+	"evolves_into": [{
+		"name": "Arcanine",
+		"method": "giving it the item Fire Stone"
+	}]
+}, {
+	"id": 59,
+	"name": "Arcanine",
+	"types": ["fire"],
+	"evolves_into": []
+}, {
+	"id": 60,
+	"name": "Poliwag",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Poliwhirl",
+		"method": "level 25"
+	}, {
+		"name": "Poliwrath",
+		"method": "giving it the item Water Stone"
+	}]
+}, {
+	"id": 61,
+	"name": "Poliwhirl",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Poliwrath",
+		"method": "giving it the item Water Stone"
+	}]
+}, {
+	"id": 62,
+	"name": "Poliwrath",
+	"types": ["water", "fighting"],
+	"evolves_into": []
+}, {
+	"id": 63,
+	"name": "Abra",
+	"types": ["psychic"],
+	"evolves_into": [{
+		"name": "Kadabra",
+		"method": "level 16"
+	}, {
+		"name": "Alakazam",
+		"method": "trading"
+	}]
+}, {
+	"id": 64,
+	"name": "Kadabra",
+	"types": ["psychic"],
+	"evolves_into": [{
+		"name": "Alakazam",
+		"method": "trading"
+	}]
+}, {
+	"id": 65,
+	"name": "Alakazam",
+	"types": ["psychic"],
+	"evolves_into": []
+}, {
+	"id": 66,
+	"name": "Machop",
+	"types": ["fighting"],
+	"evolves_into": [{
+		"name": "Machoke",
+		"method": "level 28"
+	}, {
+		"name": "Machamp",
+		"method": "trading"
+	}]
+}, {
+	"id": 67,
+	"name": "Machoke",
+	"types": ["fighting"],
+	"evolves_into": [{
+		"name": "Machamp",
+		"method": "trading"
+	}]
+}, {
+	"id": 68,
+	"name": "Machamp",
+	"types": ["fighting"],
+	"evolves_into": []
+}, {
+	"id": 69,
+	"name": "Bellsprout",
+	"types": ["grass", "poison"],
+	"evolves_into": [{
+		"name": "Weepinbell",
+		"method": "level 21"
+	}, {
+		"name": "Victreebel",
+		"method": "giving it the item Leaf Stone"
+	}]
+}, {
+	"id": 70,
+	"name": "Weepinbell",
+	"types": ["grass", "poison"],
+	"evolves_into": [{
+		"name": "Victreebel",
+		"method": "giving it the item Leaf Stone"
+	}]
+}, {
+	"id": 71,
+	"name": "Victreebel",
+	"types": ["grass", "poison"],
+	"evolves_into": []
+}, {
+	"id": 72,
+	"name": "Tentacool",
+	"types": ["water", "poison"],
+	"evolves_into": [{
+		"name": "Tentacruel",
+		"method": "level 30"
+	}]
+}, {
+	"id": 73,
+	"name": "Tentacruel",
+	"types": ["water", "poison"],
+	"evolves_into": []
+}, {
+	"id": 74,
+	"name": "Geodude",
+	"types": ["rock", "ground"],
+	"evolves_into": [{
+		"name": "Graveler",
+		"method": "level 25"
+	}, {
+		"name": "Golem",
+		"method": "trading"
+	}]
+}, {
+	"id": 75,
+	"name": "Graveler",
+	"types": ["rock", "ground"],
+	"evolves_into": [{
+		"name": "Golem",
+		"method": "trading"
+	}]
+}, {
+	"id": 76,
+	"name": "Golem",
+	"types": ["rock", "ground"],
+	"evolves_into": []
+}, {
+	"id": 77,
+	"name": "Ponyta",
+	"types": ["fire"],
+	"evolves_into": [{
+		"name": "Rapidash",
+		"method": "level 40"
+	}]
+}, {
+	"id": 78,
+	"name": "Rapidash",
+	"types": ["fire"],
+	"evolves_into": []
+}, {
+	"id": 79,
+	"name": "Slowpoke",
+	"types": ["water", "psychic"],
+	"evolves_into": [{
+		"name": "Slowbro",
+		"method": "level 37"
+	}]
+}, {
+	"id": 80,
+	"name": "Slowbro",
+	"types": ["water", "psychic"],
+	"evolves_into": []
+}, {
+	"id": 81,
+	"name": "Magnemite",
+	"types": ["electric"],
+	"evolves_into": [{
+		"name": "Magneton",
+		"method": "level 30"
+	}]
+}, {
+	"id": 82,
+	"name": "Magneton",
+	"types": ["electric"],
+	"evolves_into": []
+}, {
+	"id": 83,
+	"name": "Farfetch’d",
+	"types": ["normal", "flying"],
+	"evolves_into": []
+}, {
+	"id": 84,
+	"name": "Doduo",
+	"types": ["normal", "flying"],
+	"evolves_into": [{
+		"name": "Dodrio",
+		"method": "level 31"
+	}]
+}, {
+	"id": 85,
+	"name": "Dodrio",
+	"types": ["normal", "flying"],
+	"evolves_into": []
+}, {
+	"id": 86,
+	"name": "Seel",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Dewgong",
+		"method": "level 34"
+	}]
+}, {
+	"id": 87,
+	"name": "Dewgong",
+	"types": ["water", "ice"],
+	"evolves_into": []
+}, {
+	"id": 88,
+	"name": "Grimer",
+	"types": ["poison"],
+	"evolves_into": [{
+		"name": "Muk",
+		"method": "level 38"
+	}]
+}, {
+	"id": 89,
+	"name": "Muk",
+	"types": ["poison"],
+	"evolves_into": []
+}, {
+	"id": 90,
+	"name": "Shellder",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Cloyster",
+		"method": "giving it the item Water Stone"
+	}]
+}, {
+	"id": 91,
+	"name": "Cloyster",
+	"types": ["water", "ice"],
+	"evolves_into": []
+}, {
+	"id": 92,
+	"name": "Gastly",
+	"types": ["ghost", "poison"],
+	"evolves_into": [{
+		"name": "Haunter",
+		"method": "level 25"
+	}, {
+		"name": "Gengar",
+		"method": "trading"
+	}]
+}, {
+	"id": 93,
+	"name": "Haunter",
+	"types": ["ghost", "poison"],
+	"evolves_into": [{
+		"name": "Gengar",
+		"method": "trading"
+	}]
+}, {
+	"id": 94,
+	"name": "Gengar",
+	"types": ["ghost", "poison"],
+	"evolves_into": []
+}, {
+	"id": 95,
+	"name": "Onix",
+	"types": ["rock", "ground"],
+	"evolves_into": []
+}, {
+	"id": 96,
+	"name": "Drowzee",
+	"types": ["psychic"],
+	"evolves_into": [{
+		"name": "Hypno",
+		"method": "level 26"
+	}]
+}, {
+	"id": 97,
+	"name": "Hypno",
+	"types": ["psychic"],
+	"evolves_into": []
+}, {
+	"id": 98,
+	"name": "Krabby",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Kingler",
+		"method": "level 28"
+	}]
+}, {
+	"id": 99,
+	"name": "Kingler",
+	"types": ["water"],
+	"evolves_into": []
+}, {
+	"id": 100,
+	"name": "Voltorb",
+	"types": ["electric"],
+	"evolves_into": [{
+		"name": "Electrode",
+		"method": "level 30"
+	}]
+}, {
+	"id": 101,
+	"name": "Electrode",
+	"types": ["electric"],
+	"evolves_into": []
+}, {
+	"id": 102,
+	"name": "Exeggcute",
+	"types": ["grass", "psychic"],
+	"evolves_into": [{
+		"name": "Exeggutor",
+		"method": "giving it the item Leaf Stone"
+	}]
+}, {
+	"id": 103,
+	"name": "Exeggutor",
+	"types": ["grass", "psychic"],
+	"evolves_into": []
+}, {
+	"id": 104,
+	"name": "Cubone",
+	"types": ["ground"],
+	"evolves_into": [{
+		"name": "Marowak",
+		"method": "level 28"
+	}, {
+		"name": "Marowak",
+		"method": "level 28"
+	}]
+}, {
+	"id": 105,
+	"name": "Marowak",
+	"types": ["ground"],
+	"evolves_into": []
+}, {
+	"id": 106,
+	"name": "Hitmonlee",
+	"types": ["fighting"],
+	"evolves_into": []
+}, {
+	"id": 107,
+	"name": "Hitmonchan",
+	"types": ["fighting"],
+	"evolves_into": []
+}, {
+	"id": 108,
+	"name": "Lickitung",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 109,
+	"name": "Koffing",
+	"types": ["poison"],
+	"evolves_into": [{
+		"name": "Weezing",
+		"method": "level 35"
+	}]
+}, {
+	"id": 110,
+	"name": "Weezing",
+	"types": ["poison"],
+	"evolves_into": []
+}, {
+	"id": 111,
+	"name": "Rhyhorn",
+	"types": ["ground", "rock"],
+	"evolves_into": [{
+		"name": "Rhydon",
+		"method": "level 42"
+	}]
+}, {
+	"id": 112,
+	"name": "Rhydon",
+	"types": ["ground", "rock"],
+	"evolves_into": []
+}, {
+	"id": 113,
+	"name": "Chansey",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 114,
+	"name": "Tangela",
+	"types": ["grass"],
+	"evolves_into": []
+}, {
+	"id": 115,
+	"name": "Kangaskhan",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 116,
+	"name": "Horsea",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Seadra",
+		"method": "level 32"
+	}]
+}, {
+	"id": 117,
+	"name": "Seadra",
+	"types": ["water"],
+	"evolves_into": []
+}, {
+	"id": 118,
+	"name": "Goldeen",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Seaking",
+		"method": "level 33"
+	}]
+}, {
+	"id": 119,
+	"name": "Seaking",
+	"types": ["water"],
+	"evolves_into": []
+}, {
+	"id": 120,
+	"name": "Staryu",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Starmie",
+		"method": "giving it the item Water Stone"
+	}]
+}, {
+	"id": 121,
+	"name": "Starmie",
+	"types": ["water", "psychic"],
+	"evolves_into": []
+}, {
+	"id": 122,
+	"name": "Mr. Mime",
+	"types": ["psychic"],
+	"evolves_into": []
+}, {
+	"id": 123,
+	"name": "Scyther",
+	"types": ["bug", "flying"],
+	"evolves_into": []
+}, {
+	"id": 124,
+	"name": "Jynx",
+	"types": ["ice", "psychic"],
+	"evolves_into": []
+}, {
+	"id": 125,
+	"name": "Electabuzz",
+	"types": ["electric"],
+	"evolves_into": []
+}, {
+	"id": 126,
+	"name": "Magmar",
+	"types": ["fire"],
+	"evolves_into": []
+}, {
+	"id": 127,
+	"name": "Pinsir",
+	"types": ["bug"],
+	"evolves_into": []
+}, {
+	"id": 128,
+	"name": "Tauros",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 129,
+	"name": "Magikarp",
+	"types": ["water"],
+	"evolves_into": [{
+		"name": "Gyarados",
+		"method": "level 20"
+	}]
+}, {
+	"id": 130,
+	"name": "Gyarados",
+	"types": ["water", "flying"],
+	"evolves_into": []
+}, {
+	"id": 131,
+	"name": "Lapras",
+	"types": ["water", "ice"],
+	"evolves_into": []
+}, {
+	"id": 132,
+	"name": "Ditto",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 133,
+	"name": "Eevee",
+	"types": ["normal"],
+	"evolves_into": [{
+		"name": "Vaporeon",
+		"method": "giving it the item Water Stone"
+	}, {
+		"name": "Jolteon",
+		"method": "giving it the item Thunder Stone"
+	}, {
+		"name": "Flareon",
+		"method": "giving it the item Fire Stone"
+	}]
+}, {
+	"id": 134,
+	"name": "Vaporeon",
+	"types": ["water"],
+	"evolves_into": []
+}, {
+	"id": 135,
+	"name": "Jolteon",
+	"types": ["electric"],
+	"evolves_into": []
+}, {
+	"id": 136,
+	"name": "Flareon",
+	"types": ["fire"],
+	"evolves_into": []
+}, {
+	"id": 137,
+	"name": "Porygon",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 138,
+	"name": "Omanyte",
+	"types": ["rock", "water"],
+	"evolves_into": [{
+		"name": "Omastar",
+		"method": "level 40"
+	}]
+}, {
+	"id": 139,
+	"name": "Omastar",
+	"types": ["rock", "water"],
+	"evolves_into": []
+}, {
+	"id": 140,
+	"name": "Kabuto",
+	"types": ["rock", "water"],
+	"evolves_into": [{
+		"name": "Kabutops",
+		"method": "level 40"
+	}]
+}, {
+	"id": 141,
+	"name": "Kabutops",
+	"types": ["rock", "water"],
+	"evolves_into": []
+}, {
+	"id": 142,
+	"name": "Aerodactyl",
+	"types": ["rock", "flying"],
+	"evolves_into": []
+}, {
+	"id": 143,
+	"name": "Snorlax",
+	"types": ["normal"],
+	"evolves_into": []
+}, {
+	"id": 144,
+	"name": "Articuno",
+	"types": ["ice", "flying"],
+	"evolves_into": []
+}, {
+	"id": 145,
+	"name": "Zapdos",
+	"types": ["electric", "flying"],
+	"evolves_into": []
+}, {
+	"id": 146,
+	"name": "Moltres",
+	"types": ["fire", "flying"],
+	"evolves_into": []
+}, {
+	"id": 147,
+	"name": "Dratini",
+	"types": ["dragon"],
+	"evolves_into": [{
+		"name": "Dragonair",
+		"method": "level 30"
+	}, {
+		"name": "Dragonite",
+		"method": "level 55"
+	}]
+}, {
+	"id": 148,
+	"name": "Dragonair",
+	"types": ["dragon"],
+	"evolves_into": [{
+		"name": "Dragonite",
+		"method": "level 55"
+	}]
+}, {
+	"id": 149,
+	"name": "Dragonite",
+	"types": ["dragon", "flying"],
+	"evolves_into": []
+}, {
+	"id": 150,
+	"name": "Mewtwo",
+	"types": ["psychic"],
+	"evolves_into": []
+}, {
+	"id": 151,
+	"name": "Mew",
+	"types": ["psychic"],
+	"evolves_into": []
+}]
