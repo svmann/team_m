@@ -1,16 +1,24 @@
 import json
 
+from linkedlist import LinkedList
+from pokemon import Pokemon
 
-def build_dex():
-    try:
-        with open("pokedex.json", "r") as file:
-            data = json.load(file)
+class Pokedex(object):
 
-        print(json.dumps(data))
-    except IOError:
-        print("Error: pokedex.json file does not exist.")
-        return
+        def __init__(self):
+            pass
+
+        def run(self):
+            try:
+                with open("pokedex.json", "r") as file:
+                    data = json.load(file)
+
+                print(json.dumps(data))
+
+            except IOError:
+                print("Error: pokedex.json file does not exist.")
+                return
 
 
 if __name__ == "__main__":
-    build_dex()
+    Pokedex().run()
