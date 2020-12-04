@@ -8,19 +8,6 @@ class Pokemon():
         self.types = types
         self.evolutions = evolutions
 
-
-    def get_id(self):
-        return self.id
-    
-    def get_name(self):
-        return self.name
-
-    def get_types(self):
-        return self.types
-
-    def get_evolutions(self):
-        return self.evolutions
-
     def __str__(self):
         return_string = "ID: " + str(self.id) + "\n Name: " + self.name + "\n Types: " + str(self.types) + "\n Evolves into: " + str(self.evolutions) + "\n"
         return return_string

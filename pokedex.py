@@ -1,7 +1,8 @@
 import json
+from os import name
 
 from linkedlist import LinkedList
-from pokemon import Pokemon
+from pokemon import *
 
 class Pokedex(object):
 
@@ -14,11 +15,58 @@ class Pokedex(object):
                 with open("pokedex.json", "r") as file:
                     data = json.load(file)
 
+                # Parse JSON data into a linked list of pokemon objects
                 for poke in data:
                     
                     pokemon = Pokemon(poke['id'], poke['name'], poke['types'], poke['evolves_into'])
                     poke_list.add(pokemon)
-                print(poke_list)
+
+                print("Pokedex Encyclopedia")
+                print("1: Search by ID")
+                print("2: Search by name")
+                print("0: Exit")
+                while True:
+                    user_input = input("Enter: ")
+                    try:
+                        user_input = int(user_input)
+
+                        # Exit
+                        if user_input == 0:
+                            break;
+                        
+                        # Search by ID
+                        elif user_input == 1:
+                            id_input = input("Enter ID to search for: ")
+                            try:
+                                id_input = int(id_input)
+                                print(poke_list[id_input - 1])
+                            except ValueError:
+                                print("ID not an integer")
+
+                        # Search by name
+                        elif user_input == 2:
+                            name_input = input("Enter name to search for: ")
+                            name_found = False
+                            for members in poke_list:
+                                if members.name.lower() == name_input.lower():
+                                    print(members)
+                                    name_found = True
+                            if name_found == False:
+                                print("Name not found")
+
+                        # Invalid input
+                        else:
+                            print("Please choose a valid number")
+
+                        print("1: Search by ID")
+                        print("2: Search by name")
+                        print("0: Exit")
+
+                    except ValueError:
+                        print("Please enter a number \n")
+                        print("1: Search by ID")
+                        print("2: Search by name")
+                        print("0: Exit")
 
             except IOError:
                 print("Error: pokedex.json file does not exist.")
