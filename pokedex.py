@@ -10,10 +10,15 @@ class Pokedex(object):
 
         def run(self):
             try:
+                poke_list = LinkedList()
                 with open("pokedex.json", "r") as file:
                     data = json.load(file)
 
-                print(json.dumps(data))
+                for poke in data:
+                    
+                    pokemon = Pokemon(poke['id'], poke['name'], poke['types'], poke['evolves_into'])
+                    poke_list.add(pokemon)
+                print(poke_list)
 
             except IOError:
                 print("Error: pokedex.json file does not exist.")
