@@ -41,6 +41,8 @@ class Pokedex(object):
                                 print(poke_list[id_input - 1])
                             except ValueError:
                                 print("ID not an integer")
+                            except IndexError:
+                                print("Pokedex only contains IDs up to", len(poke_list))
 
                         # Search by name
                         elif user_input == 2:
