@@ -9,7 +9,7 @@ class Pokemon():
         self.evolutions = evolutions
 
     def __str__(self):
-        return_string = "ID: " + str(self.id) + "\n Name: " + self.name + "\n Types: " + str(self.types) + "\n Evolves into: " + str(self.evolutions) + "\n"
+        return_string = "ID: " + str(self.id) + "\nName: " + self.name + "\nTypes: " + str(self.types) + "\nEvolves into: " + str(self.evolutions) + "\n"
         return return_string
 
 
